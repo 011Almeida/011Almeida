@@ -1,0 +1,93 @@
+/* Reset básico para remover margens e padding padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais do corpo */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    color: #333;
+    background-image: url(/imagem/rio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Container para centralizar o conteúdo e adicionar padding */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background: #333333;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos das seções */
+main {
+    padding: 20px 0;
+}
+
+.hero {
+    background: #00ddff;
+    color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+}
+
+.info, .services, .contact {
+    padding: 20px 0;
+}
+
+.services {
+    background: #dee1e3;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+/* Estilos do rodapé */
+footer {
+    background: #333;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.cor{
+    color: #fff;
+}
