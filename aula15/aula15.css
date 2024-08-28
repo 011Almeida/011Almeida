@@ -1,0 +1,88 @@
+.flex-container {
+    display: flex;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.flex-item {
+    padding: 200px;
+    background-color: lightblue;
+    margin: 5px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.flex-container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+}
+
+.abacaxi {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+
+.flex-container {
+    flex-direction: column;
+    /* Os itens são posicionados em
+        coluna */
+    flex-wrap: wrap;
+    /* Se não houver espaço, os itens podem ser
+        quebrados para a próxima 'linha' */
+    height: 700px;
+    /* Definindo uma altura para visualizar o wrap
+        */
+}
+
+.flex-item:nth-child(1) {
+    flex: 1;
+    background-color: rgb(0, 255, 0);
+}
+
+.flex-item:nth-child(2) {
+    flex: 1;
+    background-color: rgb(0, 255, 0);
+}
+
+.flex-item:nth-child(3) {
+    flex: 1;
+    background-color: lightgoldenrodyellow;
+}
+
+.flex-item {
+    padding: 200px;
+    background-color: lightblue;
+    margin: 5px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.flex-item {
+    padding: 200px;
+    background-color: lightblue;
+    margin: 5px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.flex-item {
+    padding: 200px;
+    background-color: lightblue;
+    margin: 5px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.flex-item {
+    padding: 200px;
+    background-color: lightblue;
+    margin: 5px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
